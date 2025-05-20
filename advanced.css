@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: #4caf50;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.carousel {
+  max-width: 600px;
+  margin: auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .carousel-section, .api-section {
+    padding: 1rem;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .carousel img {
+    max-width: 100%;
+    height: auto;
+  }
+}
